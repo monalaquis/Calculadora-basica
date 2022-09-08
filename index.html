@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet"href="stylle.css"/>
+</head>
+<body>
+    <div class="main">
+        <form action="" name="Calculator">
+        <input type="text" class="visor" name="text1" value="" disabled>
+        <input type="text" class="texc" name="texte12" value="C" onclick="location.reload()"><br>
+
+
+        <input type="button" class="num maincolor" name="bt9" value="7" onclick="displaynum(bt9.value)">
+        <input type="button" class="num maincolor" name="bt8" value="8" onclick="displaynum(bt8.value)">
+        <input type="button" class="num maincolor" name="bt7" value="9" onclick="displaynum(bt7.value)">
+        <input type="button" class="num maincolor" name="addbto" value="+" onclick="displaynum(addbto.value)">
+        <br>
+
+        <input type="button" class="num maincolor" name="bt4" value="4" onclick="displaynum(bt4.value)">
+        <input type="button" class="num maincolor" name="bt5" value="5" onclick="displaynum(bt5.value)">
+        <input type="button" class="num maincolor" name="bt6" value="6" onclick="displaynum(bt6.value)">
+        <input type="button" class="num maincolor" name="subtbto" value="-" onclick="displaynum(subtbto.value)"><br>
+
+        <input type="button" class="num maincolor" name="bt1" value="1" onclick="displaynum(bt1.value)">
+        <input type="button" class="num maincolor" name="bt2" value="2" onclick="displaynum(bt2.value)">
+        <input type="button" class="num maincolor" name="bt3" value="3" onclick="displaynum(bt3.value)">
+        <input type="button" class="num maincolor" name="multbto" value="*" onclick="displaynum(multbto.value)"><br>
+
+        <input type="button" class="num maincolor" name="btponto" value="." onclick="displaynum(btponto.value)">
+        <input type="button" class="num maincolor" name="bt0" value="0" onclick="displaynum(bt0.value)">
+        <input type="button" class="num maincolor" name="btigual" value="=" onclick="text1.value=eval(text1.value)">
+        <input type="button" class="num maincolor" name="divbto" value="/" onclick="displaynum(divbto.value)">
+       
+        </form>
+
+    </div>
+
+
+    <script src="scripit.js"></script>
+</body>
+</html>
